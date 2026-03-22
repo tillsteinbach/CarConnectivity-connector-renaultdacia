@@ -52,7 +52,8 @@ class RenaultClimatization(Climatization):  # pylint: disable=too-many-instance-
 
 # Mapping of Renault HVAC states to generic climatization states
 mapping_renault_climatization_state: Dict[RenaultClimatization.RenaultClimatizationState, Climatization.ClimatizationState] = {
-    RenaultClimatization.RenaultClimatizationState.ON: Climatization.ClimatizationState.COOLING,
+    # 'on' indicates active HVAC pre-conditioning; mapped to HEATING as the most common use case
+    RenaultClimatization.RenaultClimatizationState.ON: Climatization.ClimatizationState.HEATING,
     RenaultClimatization.RenaultClimatizationState.OFF: Climatization.ClimatizationState.OFF,
     RenaultClimatization.RenaultClimatizationState.PENDING: Climatization.ClimatizationState.VENTILATION,
     RenaultClimatization.RenaultClimatizationState.ERROR: Climatization.ClimatizationState.OFF,

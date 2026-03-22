@@ -17,6 +17,9 @@ on:
      - '**.py'
      - 'pyproject.toml'
 
+permissions:
+  contents: read
+
 jobs:
   build-python:
     runs-on: ubuntu-latest
