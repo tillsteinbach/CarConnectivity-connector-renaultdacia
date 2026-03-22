@@ -1,0 +1,18 @@
+{
+    "carConnectivity": {
+        "log_level": "debug",
+        "connectors": [
+            {
+                "type": "renaultdacia",
+                "disabled": false,
+                "config": {
+                    "log_level": "debug",
+                    "api_log_level": "debug",
+                    "interval": 300,
+                    "locale": "de_DE"
+                }
+            }
+        ],
+        "plugins": []
+    }
+}
