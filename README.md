@@ -9,7 +9,7 @@
 [![Donate at PayPal](https://img.shields.io/badge/Donate-PayPal-2997d8)](https://www.paypal.com/donate?hosted_button_id=2BVFF5GJ9SXAJ)
 [![Sponsor at Github](https://img.shields.io/badge/Sponsor-GitHub-28a745)](https://github.com/sponsors/tillsteinbach)
 
-## CarConnectivity will become the successor of [WeConnect-python](https://github.com/tillsteinbach/WeConnect-python) in 2025 with similar functionality but support for other brands beyond Volkswagen!
+## THIS CONNECTOR WAS NOT YET TESTED WITH A REAL CAR! IF YOU LIKE PLEASE TEST IT AND GIVE FEEDBACK. ALSO IF YOU WOULD LIKE TO PROVIDE ME SOME USER ACCOUNT FOR TESTING CONTACT ME!
 
 [CarConnectivity](https://github.com/tillsteinbach/CarConnectivity) is a python API to connect to various car services. This connector enables the integration of Renault and Dacia vehicles through the Renault/Kamereon API. Look at [CarConnectivity](https://github.com/tillsteinbach/CarConnectivity) for other supported brands.
 
