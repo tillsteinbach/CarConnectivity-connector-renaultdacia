@@ -9,7 +9,8 @@
 [![Donate at PayPal](https://img.shields.io/badge/Donate-PayPal-2997d8)](https://www.paypal.com/donate?hosted_button_id=2BVFF5GJ9SXAJ)
 [![Sponsor at Github](https://img.shields.io/badge/Sponsor-GitHub-28a745)](https://github.com/sponsors/tillsteinbach)
 
-## THIS CONNECTOR WAS NOT YET TESTED WITH A REAL CAR! IF YOU LIKE PLEASE TEST IT AND GIVE FEEDBACK. ALSO IF YOU WOULD LIKE TO PROVIDE ME SOME USER ACCOUNT FOR TESTING CONTACT ME!
+## This connector is tested against a Dacia Spring. 
+Executable commands include starting and stopping the air condition HVAC, refreshing the GPS location and getting the charge history of the previous 30 days
 
 [CarConnectivity](https://github.com/tillsteinbach/CarConnectivity) is a python API to connect to various car services. This connector enables the integration of Renault and Dacia vehicles through the Renault/Kamereon API. Look at [CarConnectivity](https://github.com/tillsteinbach/CarConnectivity) for other supported brands.
 
